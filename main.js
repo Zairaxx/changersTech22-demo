@@ -35,3 +35,32 @@ darkModeBtn.addEventListener("click", function(){
         contentDiv.classList.add("darkmode");
     }
 })
+
+//Miniräknare logik
+
+let addBtn = document.querySelector("#addBtn");
+addBtn.addEventListener("click", function(){
+   let tal1 = document.querySelector("#tal1");
+   let tal2 = document.querySelector("#tal2");
+
+   let result = document.querySelector("#result");
+   result.innerText = +tal1.value + +tal2.value;
+})
+
+let subtractBtn = document.querySelector("#subtractBtn");
+subtractBtn.addEventListener("click", function(){
+    let tal1 = document.querySelector("#tal1");
+    let tal2 = document.querySelector("#tal2");
+ 
+    let result = document.querySelector("#result");
+    result.innerText = +tal1.value - +tal2.value;
+ })
+
+ let multiplyBtn = document.querySelector("#multiplyBtn");
+multiplyBtn.addEventListener("click", function(){
+    let tal1 = document.querySelector("#tal1");
+    let tal2 = document.querySelector("#tal2");
+
+    let result = document.querySelector("#result");
+    result.innerText = +tal1.value * +tal2.value;
+ })
