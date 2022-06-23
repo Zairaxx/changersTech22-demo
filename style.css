@@ -1,0 +1,32 @@
+h1 {
+    text-align:center;
+    border-bottom:1px solid black;
+    color:darkslategrey;
+    font-size:40px;
+}
+
+.darkmode h1 {
+    color:white;
+}
+
+h2 {
+    color:darkred;
+}
+
+.darkmode h2 {
+    color:white;
+}
+#info-box {
+    border:3px solid black;
+    background:lightyellow;
+}
+
+.darkmode #info-box {
+    border:3px solid white;
+    background:darkslategrey;
+    color:white;
+}
+
+.description {
+    display:none;
+}
